@@ -1,3 +1,5 @@
 # html-image-generator-project
-This web application leverages advanced AI technology to generate stunning images based on user-provided text prompts.
-Enter a text prompt, and the AI will generate a high-quality image based on your description.
+
+## Overview
+
+This project is a simple and efficient HTML Image Generator that allows users to dynamically create and manage image elements on a webpage. It provides a user-friendly interface for specifying image attributes, generating HTML code, and previewing the result in real-time.
