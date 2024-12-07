@@ -16,7 +16,7 @@ This project is a simple and efficient HTML Image Generator that allows users to
 
 ## Usage
 
-Open the application in your browser by navigating to **index.html**.
+Open the application in your browser by navigating to **imageproject.html**.
 
 Enter image attributes such as:
 
