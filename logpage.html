@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageGenerator Login</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('image.jpg') no-repeat center center/cover;
+        }
+        .login-container {
+            width: 400px;
+            background: rgba(15, 15, 15, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            color: white;
+            margin: auto;
+            text-align: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .logo span {
+            color: #a855f7;
+        }
+        .button {
+            display: block;
+            width: 94%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .apple { background: white; color: black; }
+        .google { background: #4285F4; color: white; }
+        .microsoft { background: #0078D4; color: white; }
+        .email { background: #222; color: white; border: 1px solid #444; }
+        .email-input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #444;
+            background: #222;
+            color: white;
+        }
+        .continue {
+            width: 100%;
+            padding: 10px;
+            background: #444;
+            border: none;
+            border-radius: 5px;
+            color: grey;
+            margin-top: 10px;
+        }
+        .help { color: #a855f7; cursor: pointer; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">Image<span>Generator</span></div>
+        <p>Sign up or Login with</p>
+        <a href="apple-login.html" class="button apple">&#xF8FF; Apple</a>
+        <button class="button google">G Google</button>
+        <button class="button microsoft">&#x1F4BB; Microsoft</button>
+        <button class="button email">Continue with Email</button>
+        <p>OR</p>
+        <input type="text" class="email-input" placeholder="name@host.com">
+        <button class="continue" disabled>Continue</button>
+        <p class="help">Need help?</p>
+    </div>
+</body>
+</html>
